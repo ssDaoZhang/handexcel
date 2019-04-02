@@ -1,0 +1,62 @@
+.selectbc{
+    z-index: 10;
+    position: absolute;
+    top:5em;
+    left:50%;
+    transform: translate(-50%, 0);
+    width: 23em;
+    border: 2px solid #26ae5f;
+    background: #fff;
+    &__title{
+        font-size:0.75em;
+        border: 1px solid #26ae5f;
+        background: #aafdaf;
+        color:#333; 
+        height: 1.5em;
+        line-height: 1.5em;
+        text-align: center;
+    }
+    &__item{
+        height: 30em;
+        overflow-x : hidden;
+        overflow-y: scroll;        
+        &__ele{
+            margin: 0 1em 1em 1em;
+            border:1px solid #ccc;
+            &__title{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: #26ae5f;
+                span{
+                    font-size:0.75em;
+                    height: 2em;
+                    line-height: 2em;
+                    padding: 0 0.8em;
+                    color:#fff;
+                }
+                .bankName{
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+            &__con{
+                div{
+                    font-size:0.75em;
+                    height:2.5em;
+                    line-height: 2.5em;
+                    padding: 0 0.8em;
+                    color:#333;
+                }
+            }
+            &:hover{
+                cursor: pointer;
+                .selectbc__item__ele__con{
+                    background-color: #aafdaf;
+                }
+            }
+        }
+    }
+
+}

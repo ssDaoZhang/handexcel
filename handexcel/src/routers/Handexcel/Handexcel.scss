@@ -1,0 +1,183 @@
+@mixin handic{
+    background-color: #FFF; 
+    color: #26ae5f;
+    border:1px solid #ccc;
+    box-shadow:
+    0 -5px 8px -7px rgba(81, 81,81,0.8),
+    0 -5px 8px -7px rgba(81, 81,81,0.8),
+    5px 0 8px -1px  rgba(81, 81,81,0.4),
+    5px 0 8px -1px  rgba(81, 81,81,0.8);
+    cursor : pointer;
+}
+.handexcel{
+    position: relative;
+    width: 100%;
+    // height:100%;
+    &__inpregion{
+        border: 1px solid #26ae5f;
+        width:20em;
+        height:10em;
+        line-height: 10em;
+        text-align: center;
+        font-size:0.875em;
+        color:#fff;
+        margin: 0 1em 1em;
+        background: #ccc;
+        &:hover{
+            background-color:#26ae5f;  
+        }
+    }
+    &__addflie{
+        position: absolute;
+        top:3.6875em;
+        left:20em;
+        width:90em;
+        height:12em;
+        i{
+            color:red;
+            font-weight: bold;
+        }
+        &__top{
+            display: flex;
+            align-items: center;
+            &__btn{
+                padding: 0.3em 0.5em;
+                margin: 0 1em;
+                font-size:0.75em;
+                background: #26ae5f;
+                color:#FFF;
+                border-radius: 0.3em;
+                &:hover{
+                    color:#e85356;
+                    cursor: pointer;
+                }
+            }
+            span{
+                color: red;
+            }
+        }
+        span{
+            display: block;
+            font-size:0.75em;
+            color:#333;
+            padding: 0.3em 0;
+            margin: 0 1em;
+        }
+        &__content{
+            display: flex;
+            // align-items: center;
+            padding-top:0.5em; 
+            flex-wrap: wrap;
+            width: 89.75em;
+            height: 8.3125em;
+            background: #eee;
+            border: 2px solid #26ae5f;
+            border-radius: 0.8em;
+            span{
+                font-size:0.75em;
+                height: 2em;
+                line-height: 2em;
+                padding: 0 0.5em;
+                background: #ccc;
+                color:#999;
+                border-radius: 0.5em;
+            }
+        }
+    }
+    &__warp{
+        margin-top:4em;
+        &__title{
+            font-size: 1.4em;
+            font-weight: bold;
+            height: 1.4em;
+            line-height: 1.4em;
+            text-align: center;
+            padding: 0.5em 0;
+            margin: 0.5em 0.8em;
+            border-radius: 0.5em;
+            background: #aafdaf;
+        }  
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        // background: red;
+        &__card{
+            margin:0.8em 1em;
+            width:20em;
+            height:6.5em;
+            // background: yellowgreen;
+            border: 1px solid #ccc;
+            &:hover{
+                cursor: pointer;
+                background: #aafdaf;
+            }
+        }
+
+        &__top{
+            display: flex;
+            align-items: center;
+            padding: 0 0.8em;
+            justify-content: space-between;
+            background: #26ae5f;
+            color:#fff;
+            &__item1{
+                display: flex;
+                align-items: center;
+                .shopnameitem{
+                    font-size:0.75em;
+                    height: 2em;
+                    line-height: 2em;
+                }
+                .shopnameitem1{
+                    font-size:0.75em;
+                    height: 2em;
+                    line-height: 2em;                  
+                }
+            }
+            &__item2{
+                display: flex;
+                align-items: center;
+                .banknameitem{
+                    font-size:0.75em;
+                    height: 2em;
+                    line-height: 2em;
+                }
+                .banknameitem1{
+                    font-size:0.75em;
+                    height: 2em;
+                    line-height: 2em; 
+                    width: 10em;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    //文本不换行
+                    white-space: nowrap;                   
+                }
+            }
+        }
+        &__center{
+            padding-bottom: 0.5em;
+            &__item1{
+                height : 1.5em;
+                line-height : 1.5em;
+                margin: 0 0.8em;
+                .hlcitemsr{
+                    color:red;
+                    font-weight: bold;
+                }
+
+                .hlcitems{
+                    font-size : 0.75em;
+                    height : 1.5em;
+                    line-height : 1.5em;
+                    margin-left: 0.5em
+                }
+            }
+        }
+        .readedFlag{
+            background: #ec8e8e; 
+        }
+    }
+}

@@ -1,0 +1,136 @@
+.handexcel {
+  position: relative;
+  width: 100%; }
+  .handexcel__inpregion {
+    border: 1px solid #26ae5f;
+    width: 20em;
+    height: 10em;
+    line-height: 10em;
+    text-align: center;
+    font-size: 0.875em;
+    color: #fff;
+    margin: 0 1em 1em;
+    background: #ccc; }
+    .handexcel__inpregion:hover {
+      background-color: #26ae5f; }
+  .handexcel__addflie {
+    position: absolute;
+    top: 3.6875em;
+    left: 20em;
+    width: 90em;
+    height: 12em; }
+    .handexcel__addflie i {
+      color: red;
+      font-weight: bold; }
+    .handexcel__addflie__top {
+      display: flex;
+      align-items: center; }
+      .handexcel__addflie__top__btn {
+        padding: 0.3em 0.5em;
+        margin: 0 1em;
+        font-size: 0.75em;
+        background: #26ae5f;
+        color: #FFF;
+        border-radius: 0.3em; }
+        .handexcel__addflie__top__btn:hover {
+          color: #e85356;
+          cursor: pointer; }
+      .handexcel__addflie__top span {
+        color: red; }
+    .handexcel__addflie span {
+      display: block;
+      font-size: 0.75em;
+      color: #333;
+      padding: 0.3em 0;
+      margin: 0 1em; }
+    .handexcel__addflie__content {
+      display: flex;
+      padding-top: 0.5em;
+      flex-wrap: wrap;
+      width: 89.75em;
+      height: 8.3125em;
+      background: #eee;
+      border: 2px solid #26ae5f;
+      border-radius: 0.8em; }
+      .handexcel__addflie__content span {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em;
+        padding: 0 0.5em;
+        background: #ccc;
+        color: #999;
+        border-radius: 0.5em; }
+  .handexcel__warp {
+    margin-top: 4em; }
+    .handexcel__warp__title {
+      font-size: 1.4em;
+      font-weight: bold;
+      height: 1.4em;
+      line-height: 1.4em;
+      text-align: center;
+      padding: 0.5em 0;
+      margin: 0.5em 0.8em;
+      border-radius: 0.5em;
+      background: #aafdaf; }
+  .handexcel__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%; }
+    .handexcel__list__card {
+      margin: 0.8em 1em;
+      width: 20em;
+      height: 6.5em;
+      border: 1px solid #ccc; }
+      .handexcel__list__card:hover {
+        cursor: pointer;
+        background: #aafdaf; }
+    .handexcel__list__top {
+      display: flex;
+      align-items: center;
+      padding: 0 0.8em;
+      justify-content: space-between;
+      background: #26ae5f;
+      color: #fff; }
+      .handexcel__list__top__item1 {
+        display: flex;
+        align-items: center; }
+        .handexcel__list__top__item1 .shopnameitem {
+          font-size: 0.75em;
+          height: 2em;
+          line-height: 2em; }
+        .handexcel__list__top__item1 .shopnameitem1 {
+          font-size: 0.75em;
+          height: 2em;
+          line-height: 2em; }
+      .handexcel__list__top__item2 {
+        display: flex;
+        align-items: center; }
+        .handexcel__list__top__item2 .banknameitem {
+          font-size: 0.75em;
+          height: 2em;
+          line-height: 2em; }
+        .handexcel__list__top__item2 .banknameitem1 {
+          font-size: 0.75em;
+          height: 2em;
+          line-height: 2em;
+          width: 10em;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap; }
+    .handexcel__list__center {
+      padding-bottom: 0.5em; }
+      .handexcel__list__center__item1 {
+        height: 1.5em;
+        line-height: 1.5em;
+        margin: 0 0.8em; }
+        .handexcel__list__center__item1 .hlcitemsr {
+          color: red;
+          font-weight: bold; }
+        .handexcel__list__center__item1 .hlcitems {
+          font-size: 0.75em;
+          height: 1.5em;
+          line-height: 1.5em;
+          margin-left: 0.5em; }
+    .handexcel__list .readedFlag {
+      background: #ec8e8e; }

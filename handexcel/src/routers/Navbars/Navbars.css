@@ -1,0 +1,18 @@
+.navbars {
+  display: flex;
+  align-items: center;
+  background: #26ae5f;
+  margin: 1em 0; }
+  .navbars__item {
+    flex: 1;
+    color: #fff;
+    font-size: 0.875em;
+    font-weight: bold;
+    text-align: center;
+    height: 2em;
+    line-height: 2em; }
+    .navbars__item:hover {
+      cursor: pointer;
+      color: #e85356; }
+    .navbars__item--active {
+      background: #ccc; }

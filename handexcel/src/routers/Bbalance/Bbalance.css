@@ -1,0 +1,112 @@
+.bbalance {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+  .bbalance__query {
+    display: flex;
+    height: 2em;
+    align-items: center;
+    margin: 0 2em 1em 2em; }
+    .bbalance__query i {
+      margin-left: 1.5em;
+      color: red;
+      font-weight: bold; }
+    .bbalance__query span {
+      font-size: 0.75em;
+      height: 2em;
+      line-height: 2em; }
+    .bbalance__query__items {
+      position: relative;
+      height: 1.5em;
+      text-align: center;
+      width: 18em;
+      background: #eee;
+      border: 1px solid #bbb;
+      margin: 0 2em 0 1em; }
+      .bbalance__query__items__it {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em; }
+        .bbalance__query__items__it:hover {
+          cursor: pointer;
+          color: #e85356; }
+        .bbalance__query__items__it i {
+          position: absolute;
+          top: 30%;
+          right: 5%;
+          display: block;
+          width: 1.2em;
+          height: 1.2em;
+          background: #eee url("../../icons/sanj.png") 0 0/contain content-box no-repeat; }
+        .bbalance__query__items__it .sanjactive {
+          background-image: url("../../icons/sanj_act.png"); }
+      .bbalance__query__items__ic {
+        position: absolute;
+        left: 0;
+        top: 1.5em;
+        width: 100%; }
+    .bbalance__query__btn {
+      font-size: 0.75em;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      background: #26ae5f;
+      color: #fff;
+      width: 5em; }
+      .bbalance__query__btn:hover {
+        cursor: pointer;
+        color: #e85356; }
+  .bbalance__tablewarp {
+    margin-left: 1em;
+    margin-top: 1em; }
+    .bbalance__tablewarp__ele11 {
+      display: flex;
+      align-items: center;
+      height: 1.5em;
+      width: 24em;
+      border: 1px solid #ccc; }
+      .bbalance__tablewarp__ele11 span {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center; }
+      .bbalance__tablewarp__ele11__t1 {
+        flex: 0.8;
+        background: #26ae5f;
+        color: #fff;
+        border-right: 1px solid #ccc; }
+      .bbalance__tablewarp__ele11__t2 {
+        flex: 1;
+        color: #333; }
+    .bbalance__tablewarp__ele1 {
+      display: flex;
+      align-items: center;
+      height: 1.5em;
+      width: 24em;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      border-left: 1px solid #ccc; }
+      .bbalance__tablewarp__ele1 span {
+        font-size: 0.75em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center; }
+      .bbalance__tablewarp__ele1__tt1 {
+        flex: 0.8;
+        background: #26ae5f;
+        color: #fff;
+        border-right: 1px solid #ccc; }
+      .bbalance__tablewarp__ele1__tt2 {
+        flex: 1;
+        color: #333; }
+        .bbalance__tablewarp__ele1__tt2 i {
+          font-style: normal;
+          color: #26ae5f;
+          margin-left: 1em; }
+          .bbalance__tablewarp__ele1__tt2 i:hover {
+            cursor: pointer;
+            color: #e85356; }
